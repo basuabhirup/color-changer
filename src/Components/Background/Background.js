@@ -7,7 +7,7 @@ class Background extends React.Component{
         super(props);
 
         this.state = {
-            selectedColor: 'None Selected'
+            selectedColor: 'Displaying Default'
         }
     }
     changeBackgroundColor = (event)  => {
